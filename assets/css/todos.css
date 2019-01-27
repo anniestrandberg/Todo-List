@@ -1,0 +1,71 @@
+#container {
+    width: 400px;
+    margin: 100px auto;
+   background: white;
+   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+   padding: 2rem;
+}
+.completed {
+    color: grey;
+    text-decoration: line-through;
+    font-weight: 100;
+}
+
+h1 {
+    color: #282828;
+    margin-top: 0px;
+    font-size: 4rem;
+    letter-spacing: 12px;
+    text-align: center;
+}
+
+li {
+    height: 60px;
+    line-height: 60px;
+    font-size: 2rem;
+}
+
+li:nth-child(2n){
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
+li span {
+    
+    color: rosybrown;
+    font-size: 1.2rem;
+    margin-right: 1rem;
+    margin-left: 0.6rem;
+}
+
+
+#container div {
+ 
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0px;
+}
+
+input {
+    width: 100%;
+    padding: 14px;
+    font-size: 25px;
+    box-sizing: border-box;
+    color: #666;
+    border: none;
+    border-bottom: 0.4px solid rgba(0, 0, 0, 0.8);
+    font-family: 'Wire One', sans-serif;
+    letter-spacing: 3px;
+}
+
+input:focus {
+    background-color: white;
+    border-bottom: 1.5px solid #666;
+    outline: none;
+}
+
+body{
+   background-color: rosybrown;
+    font-family: 'Wire One', sans-serif;
+}
